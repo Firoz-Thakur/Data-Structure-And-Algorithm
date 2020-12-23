@@ -52,7 +52,13 @@ Expected Auxiliary Space: O(1).
 	        {
 	            c=c+k-j;
 	            j++;
-	        }
+	                         
+	                                   // because the k is the largest number less
+	                                    //then k for fix i,j the sum will always be
+	                                //less then the sum if for current k it is less.
+	            
+		}
+		     
 	        else
 	        {
 	            k--;
